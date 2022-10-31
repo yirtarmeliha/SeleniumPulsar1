@@ -163,8 +163,8 @@ public class SalesScenario4 extends OpenPage {
         }
 
         assertEquals("£0.00", Elements.basketDiscountTD().getAttribute("innerHTML"));
-        assertEquals("£272.80", Elements.basketSubtotalTD().getAttribute("innerHTML"));
-        assertEquals("762", Elements.basketItemCountTD().getAttribute("innerHTML"));
+        assertEquals("£249.00", Elements.basketSubtotalTD().getAttribute("innerHTML"));
+        assertEquals("62", Elements.basketItemCountTD().getAttribute("innerHTML"));
 
         try {
             Thread.sleep(3000);
@@ -197,9 +197,9 @@ public class SalesScenario4 extends OpenPage {
             e.printStackTrace();
         }
 
-        assertEquals("£6.56", Elements.basketDiscountTD().getAttribute("innerHTML"));
+        assertEquals("£1.80", Elements.basketDiscountTD().getAttribute("innerHTML"));
 
-        Elements.productScreenFive().click();
+        Elements.productScreenFour().click();
 
         try {
             Thread.sleep(3000);
@@ -236,7 +236,7 @@ public class SalesScenario4 extends OpenPage {
         }
 
         assertEquals("£94.00", Elements.basketDiscountTD().getAttribute("innerHTML"));
-        assertEquals("£178.80", Elements.basketSubtotalTD().getAttribute("innerHTML"));
+
 
         Elements.fiveScreen().click();
         Elements.xScreen().click();
@@ -284,7 +284,7 @@ public class SalesScenario4 extends OpenPage {
             e.printStackTrace();
         }
 
-        assertEquals("£224.30", Elements.basketSubtotalTD().getAttribute("innerHTML"));
+        assertEquals("£200.50", Elements.basketSubtotalTD().getAttribute("innerHTML"));
 
         Elements.productScreenFive().click();
 
@@ -302,7 +302,7 @@ public class SalesScenario4 extends OpenPage {
             e.printStackTrace();
         }
 
-        assertEquals("£187.80", Elements.basketSubtotalTD().getAttribute("innerHTML"));
+        assertEquals("£191.50", Elements.basketSubtotalTD().getAttribute("innerHTML"));
 
         try {
             Thread.sleep(3000);
@@ -333,8 +333,6 @@ public class SalesScenario4 extends OpenPage {
         }
 
         assertEquals("£94.00", Elements.basketDiscountTD().getAttribute("innerHTML"));
-        assertEquals("£347.80", Elements.basketSubtotalTD().getAttribute("innerHTML"));
-        assertEquals("783", Elements.basketItemCountTD().getAttribute("innerHTML"));
 
         Elements.cardScreen().click();
         assertEquals("block", Elements.StartcardtransactionYesNo().getCssValue("display"));

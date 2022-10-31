@@ -25,6 +25,13 @@ public class SalesScenario7 extends OpenPage{
 
         Elements.sevenScreen().click();
         Elements.xScreen().click();
+
+        try {
+            Thread.sleep(4000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
         Elements.grocery().click();
         assertEquals("block", Elements.modal().getCssValue("display"));
         Elements.fivePopUp().click();
@@ -33,7 +40,7 @@ public class SalesScenario7 extends OpenPage{
         assertEquals("560", Elements.keypadModalClass().getAttribute("value"));
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(4000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -42,7 +49,7 @@ public class SalesScenario7 extends OpenPage{
         assertEquals("none", Elements.modal().getCssValue("display"));
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(4000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -55,7 +62,7 @@ public class SalesScenario7 extends OpenPage{
         assertEquals("201", Elements.keypadModalClass().getAttribute("value"));
 
         try {
-            Thread.sleep(500);
+            Thread.sleep(4000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -64,7 +71,7 @@ public class SalesScenario7 extends OpenPage{
         assertEquals("none", Elements.modal().getCssValue("display"));
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(4000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -76,7 +83,7 @@ public class SalesScenario7 extends OpenPage{
         assertEquals("9400", Elements.keypadModalClass().getAttribute("value"));
 
         try {
-            Thread.sleep(500);
+            Thread.sleep(4000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -85,7 +92,7 @@ public class SalesScenario7 extends OpenPage{
         assertEquals("none", Elements.modal().getCssValue("display"));
 
         try {
-            Thread.sleep(500);
+            Thread.sleep(4000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -98,7 +105,7 @@ public class SalesScenario7 extends OpenPage{
         assertEquals("115", Elements.keypadModalClass().getAttribute("value"));
 
         try {
-            Thread.sleep(500);
+            Thread.sleep(4000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -107,12 +114,20 @@ public class SalesScenario7 extends OpenPage{
         assertEquals("none", Elements.modal().getCssValue("display"));
 
         try {
-            Thread.sleep(500);
+            Thread.sleep(5000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
         ElementsJS.FruitAndVegMenuKG();
+
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+
         assertEquals("block", Elements.modal().getCssValue("display"));
         Elements.twoPopUp().click();
         Elements.eightPopUp().click();
@@ -120,7 +135,7 @@ public class SalesScenario7 extends OpenPage{
         assertEquals("2800", Elements.keypadModalClass().getAttribute("value"));
 
         try {
-            Thread.sleep(500);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -129,7 +144,7 @@ public class SalesScenario7 extends OpenPage{
         assertEquals("none", Elements.modal().getCssValue("display"));
 
         try {
-            Thread.sleep(500);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -141,7 +156,7 @@ public class SalesScenario7 extends OpenPage{
         assertEquals("1500", Elements.keypadModalClass().getAttribute("value"));
 
         try {
-            Thread.sleep(500);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -150,7 +165,7 @@ public class SalesScenario7 extends OpenPage{
         assertEquals("none", Elements.modal().getCssValue("display"));
 
         try {
-            Thread.sleep(500);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -160,7 +175,7 @@ public class SalesScenario7 extends OpenPage{
         assertEquals("£464.20", Elements.basketSubtotalTD().getAttribute("innerHTML"));
 
         try {
-            Thread.sleep(500);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -168,7 +183,7 @@ public class SalesScenario7 extends OpenPage{
         Elements.cashScreen().click();
 
         try {
-            Thread.sleep(500);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -176,7 +191,7 @@ public class SalesScenario7 extends OpenPage{
         Elements.Cscreen().click();
 
         try {
-            Thread.sleep(2000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -187,7 +202,7 @@ public class SalesScenario7 extends OpenPage{
         }
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -202,7 +217,7 @@ public class SalesScenario7 extends OpenPage{
         assertEquals("200", Elements.keypadModalClass().getAttribute("value"));
 
         try {
-            Thread.sleep(500);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -211,7 +226,7 @@ public class SalesScenario7 extends OpenPage{
         assertEquals("none", Elements.modal().getCssValue("display"));
 
         try {
-            Thread.sleep(500);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -219,7 +234,7 @@ public class SalesScenario7 extends OpenPage{
         Elements.cash5Screen().click();
 
         try {
-            Thread.sleep(500);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -227,7 +242,7 @@ public class SalesScenario7 extends OpenPage{
         Elements.Cscreen().click();
 
         try {
-            Thread.sleep(2000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -238,7 +253,7 @@ public class SalesScenario7 extends OpenPage{
         }
 
         try {
-            Thread.sleep(500);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -253,7 +268,7 @@ public class SalesScenario7 extends OpenPage{
         assertEquals("none", Elements.modal().getCssValue("display"));
 
         try {
-            Thread.sleep(2000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -261,7 +276,7 @@ public class SalesScenario7 extends OpenPage{
         Elements.cash10Screen().click();
 
         try {
-            Thread.sleep(2000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -269,7 +284,7 @@ public class SalesScenario7 extends OpenPage{
         Elements.Cscreen().click();
 
         try {
-            Thread.sleep(2000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -280,7 +295,7 @@ public class SalesScenario7 extends OpenPage{
         }
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -292,7 +307,7 @@ public class SalesScenario7 extends OpenPage{
         assertEquals("71", Elements.keypadModalClass().getAttribute("value"));
 
         try {
-            Thread.sleep(500);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -301,7 +316,7 @@ public class SalesScenario7 extends OpenPage{
         assertEquals("none", Elements.modal().getCssValue("display"));
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -309,7 +324,7 @@ public class SalesScenario7 extends OpenPage{
         Elements.cash1Screen().click();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

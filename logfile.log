@@ -25,3 +25,52 @@
 2022-10-31 01:10:23,927 ERROR [Log] Scenario 4 = FAILED with cause : expected: <0.19> but was: <£0.00> 
 2022-10-31 01:11:18,479 ERROR [Log] Scenario 4 = FAILED with cause : expected: <none> but was: <block> 
 2022-10-31 01:14:04,868 ERROR [Log] Scenario 4 = FAILED with cause : expected: <none> but was: <block> 
+2022-10-31 01:38:34,132 ERROR [Log] Scenario 4 = FAILED with cause : expected: <£272.80> but was: <£249.00> 
+2022-10-31 01:41:33,595 ERROR [Log] Scenario 4 = FAILED with cause : expected: <£6.56> but was: <£1.80> 
+2022-10-31 01:47:51,313 ERROR [Log] Scenario 4 = FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":".ng-isolate-scope tbody tr:nth-child(5)"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:54:9b6:d8c7:982b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7f2bb2161c8d512ad38c86fa6465d46b, findElement {using=css selector, value=.ng-isolate-scope tbody tr:nth-child(5)}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:55777}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:55777/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7f2bb2161c8d512ad38c86fa6465d46b 
+2022-10-31 01:51:10,047 ERROR [Log] Scenario 4 = FAILED with cause : expected: <£224.30> but was: <£200.50> 
+2022-10-31 01:54:30,697 ERROR [Log] Scenario 4 = FAILED with cause : expected: <£347.80> but was: <£211.50> 
+2022-10-31 01:57:05,248 INFO  [Log] Scenario 4 = PASSED 
+2022-10-31 01:57:59,771 ERROR [Log] Scenario 5 = FAILED with cause : expected: <block> but was: <none> 
+2022-10-31 01:58:57,047 ERROR [Log] Scenario 5 = FAILED with cause : expected: <block> but was: <none> 
+2022-10-31 01:59:55,857 ERROR [Log] Scenario 5 = FAILED with cause : expected: <3> but was: <0> 
+2022-10-31 02:00:44,292 ERROR [Log] Scenario 5 = FAILED with cause : expected: <3> but was: <0> 
+2022-10-31 02:02:41,757 ERROR [Log] Scenario 6 = FAILED with cause : expected: <block> but was: <none> 
+2022-10-31 02:04:00,008 ERROR [Log] Scenario 6 = FAILED with cause : expected: <block> but was: <none> 
+2022-10-31 02:04:56,879 ERROR [Log] Scenario 6 = FAILED with cause : expected: <block> but was: <none> 
+2022-10-31 02:05:55,202 ERROR [Log] Scenario 6 = FAILED with cause : expected: <7> but was: <6> 
+2022-10-31 02:07:19,698 ERROR [Log] Scenario 6 = FAILED with cause : expected: <5> but was: <35215> 
+2022-10-31 02:10:32,985 ERROR [Log] Scenario 6 = FAILED with cause : expected: <£188.37> but was: <£811.37> 
+2022-10-31 02:12:57,825 INFO  [Log] Scenario 6 = PASSED 
+2022-10-31 02:34:32,931 INFO  [Log] Scenario 2 = PASSED 
+2022-10-31 02:41:27,345 ERROR [Log] Scenario 7 = FAILED with cause : element click intercepted: Element <button class="col-xs-6 flexItem btn wrap btn3dSale ng-scope" type="button" data-ng-click="playKeySound(); enterCode()" name="btnEnterCode" translate="ENTER_CODE_LB">...</button> is not clickable at point (660, 347). Other element would receive the click: <button type="button" data-ng-click="playKeySound(); addCodeValue('4');" class="flexItem btn  btn3dSale keypadbtn">...</button>
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:54:9b6:d8c7:982b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f8566ba61ed1a422d5ba2a9635374385, clickElement {id=dd001776-06a1-4937-8a43-d031486c1758}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:56722}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:56722/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (f8566ba61ed1a422d5ba2a9635374385)] -> css selector: .col-xs-6[translate="ENTER_CODE_LB"]]
+Session ID: f8566ba61ed1a422d5ba2a9635374385 
+2022-10-31 02:43:25,577 ERROR [Log] Scenario 7 = FAILED with cause : element click intercepted: Element <button class="col-xs-6 flexItem btn wrap btn3dSale ng-scope" type="button" data-ng-click="playKeySound(); enterCode()" name="btnEnterCode" translate="ENTER_CODE_LB">...</button> is not clickable at point (660, 347). Other element would receive the click: <button type="button" data-ng-click="playKeySound(); addCodeValue('4');" class="flexItem btn  btn3dSale keypadbtn">...</button>
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:54:9b6:d8c7:982b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4066e122c5f6d6ed150aedb6cb1a0176, clickElement {id=ec4079b2-f20d-4317-b8b7-ef3cc80ce213}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:56750}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:56750/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (4066e122c5f6d6ed150aedb6cb1a0176)] -> css selector: .col-xs-6[translate="ENTER_CODE_LB"]]
+Session ID: 4066e122c5f6d6ed150aedb6cb1a0176 
+2022-10-31 02:44:47,340 ERROR [Log] Scenario 7 = FAILED with cause : expected: <block> but was: <none> 
+2022-10-31 02:49:00,443 ERROR [Log] Scenario 7 = FAILED with cause : expected: <block> but was: <none> 
+2022-10-31 02:50:39,685 ERROR [Log] Scenario 7 = FAILED with cause : expected: <block> but was: <none> 
+2022-10-31 03:07:04,487 ERROR [Log] Scenario 7 = FAILED with cause : expected: <block> but was: <none> 
+2022-10-31 03:09:36,137 ERROR [Log] Scenario 7 = FAILED with cause : expected: <block> but was: <none> 
