@@ -25,7 +25,7 @@ public class SalesScenario11 extends OpenPage{
         Elements.homeMode().click();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -33,7 +33,7 @@ public class SalesScenario11 extends OpenPage{
         Elements.management().click();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -41,7 +41,7 @@ public class SalesScenario11 extends OpenPage{
         Elements.mixAndMatch().click();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -49,7 +49,7 @@ public class SalesScenario11 extends OpenPage{
         Elements.create().click();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -78,26 +78,29 @@ public class SalesScenario11 extends OpenPage{
             e.printStackTrace();
         }
 
-        Elements.MixandMacthBarcode().sendKeys("25");
+        Elements.MixandMacthSubmenuProduct().sendKeys("BLACKBERRY");
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
-        Elements.MixandMacthSubmenuProduct().sendKeys(Keys.ENTER);
+        ElementsJS.pointFruitMenuBLACKBERRY();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+
+
+
 
         Elements.SAVEmm().click();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -105,7 +108,7 @@ public class SalesScenario11 extends OpenPage{
         Elements.MixandMacthfirst().click();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -114,7 +117,7 @@ public class SalesScenario11 extends OpenPage{
         assertEquals("block", Elements.deleteAreYouSure().getCssValue("display"));
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -123,7 +126,7 @@ public class SalesScenario11 extends OpenPage{
         assertEquals("none", Elements.deleteAreYouSure().getCssValue("display"));
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -131,13 +134,10 @@ public class SalesScenario11 extends OpenPage{
 
 
 
-
-
-
         Elements.create().click();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -166,35 +166,58 @@ public class SalesScenario11 extends OpenPage{
             e.printStackTrace();
         }
 
-        Elements.MixandMacthBarcode().sendKeys("25");
+        Elements.MixandMacthSubmenuProduct().sendKeys("BLACKBERRY");
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
-        Elements.MixandMacthSubmenuProduct().sendKeys(Keys.ENTER);
+        ElementsJS.pointFruitMenuBLACKBERRY();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+
 
         Elements.SAVEmm().click();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
         Elements.homeModeBack().click();
 
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
         Elements.twoScreen().click();
         Elements.xScreen().click();
+
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
         ElementsJS.pointFruitMenu();
+        ElementsJS.pointFruitMenu();
+
+        try {
+            Thread.sleep(1500);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        ElementsJS.pointFruitMenuBLACKBERRY();
 
         try {
             Thread.sleep(1000);
@@ -202,7 +225,6 @@ public class SalesScenario11 extends OpenPage{
             e.printStackTrace();
         }
 
-        ElementsJS.pointFruitMenuBLACKBERRY();
         ElementsJS.pointFruitMenuBLACKBERRY();
 
         try {
@@ -217,6 +239,13 @@ public class SalesScenario11 extends OpenPage{
 
 
         Elements.pointVegAndFruitMenuOK().click();
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
         Elements.cashScreen().click();
 
         try {
@@ -227,14 +256,10 @@ public class SalesScenario11 extends OpenPage{
 
 
 
-
-
-
-
         Elements.homeMode().click();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -242,7 +267,7 @@ public class SalesScenario11 extends OpenPage{
         Elements.management().click();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -250,7 +275,7 @@ public class SalesScenario11 extends OpenPage{
         Elements.mixAndMatch().click();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -258,7 +283,7 @@ public class SalesScenario11 extends OpenPage{
         Elements.MixandMacthfirst().click();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -267,7 +292,7 @@ public class SalesScenario11 extends OpenPage{
         assertEquals("block", Elements.deleteAreYouSure().getCssValue("display"));
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -276,7 +301,7 @@ public class SalesScenario11 extends OpenPage{
         assertEquals("none", Elements.deleteAreYouSure().getCssValue("display"));
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -288,7 +313,7 @@ public class SalesScenario11 extends OpenPage{
         Elements.create().click();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -317,34 +342,48 @@ public class SalesScenario11 extends OpenPage{
             e.printStackTrace();
         }
 
-        Elements.MixandMacthBarcode().sendKeys("25");
+        Elements.MixandMacthSubmenuProduct().sendKeys("BLACKBERRY");
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
-        Elements.MixandMacthSubmenuProduct().sendKeys(Keys.ENTER);
+        ElementsJS.pointFruitMenuBLACKBERRY();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+
 
         Elements.SAVEmm().click();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
         Elements.homeModeBack().click();
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
         Elements.sixScreen().click();
         Elements.xScreen().click();
+
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        ElementsJS.pointFruitMenu();
         ElementsJS.pointFruitMenu();
 
         try {
@@ -378,6 +417,13 @@ public class SalesScenario11 extends OpenPage{
 
 
         Elements.pointVegAndFruitMenuOK().click();
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
         Elements.cashScreen().click();
 
         try {
@@ -395,7 +441,7 @@ public class SalesScenario11 extends OpenPage{
         Elements.homeMode().click();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -403,7 +449,7 @@ public class SalesScenario11 extends OpenPage{
         Elements.management().click();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -411,7 +457,7 @@ public class SalesScenario11 extends OpenPage{
         Elements.mixAndMatch().click();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -419,7 +465,7 @@ public class SalesScenario11 extends OpenPage{
         Elements.MixandMacthfirst().click();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -428,7 +474,7 @@ public class SalesScenario11 extends OpenPage{
         assertEquals("block", Elements.deleteAreYouSure().getCssValue("display"));
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -437,7 +483,7 @@ public class SalesScenario11 extends OpenPage{
         assertEquals("none", Elements.deleteAreYouSure().getCssValue("display"));
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

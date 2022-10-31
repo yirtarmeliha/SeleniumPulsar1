@@ -74,3 +74,193 @@ Session ID: 4066e122c5f6d6ed150aedb6cb1a0176
 2022-10-31 02:50:39,685 ERROR [Log] Scenario 7 = FAILED with cause : expected: <block> but was: <none> 
 2022-10-31 03:07:04,487 ERROR [Log] Scenario 7 = FAILED with cause : expected: <block> but was: <none> 
 2022-10-31 03:09:36,137 ERROR [Log] Scenario 7 = FAILED with cause : expected: <block> but was: <none> 
+2022-10-31 21:48:20,181 ERROR [Log] Scenario 7 = FAILED with cause : expected: <block> but was: <none> 
+2022-10-31 21:51:16,729 ERROR [Log] Scenario 7 = FAILED with cause : element click intercepted: Element <button id="btnCash" class="flexItem btn btn3dSale wrap ng-binding" type="button" data-ng-click="playKeySound(); payBasket('...')">CASH</button> is not clickable at point (1350, 590). Other element would receive the click: <div class="modal in" id="keypadModal" role="dialog" data-backdrop="static" style="display: block;">...</div>
+  (Session info: chrome=107.0.5304.87)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:c68:b170:16e9:57fd%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7fef9c87183f5a9bee67d558ac076db3, clickElement {id=a46c3bdf-d634-4538-a72a-f9e8c024fa34}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49304}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49304/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (7fef9c87183f5a9bee67d558ac076db3)] -> id: btnCash]
+Session ID: 7fef9c87183f5a9bee67d558ac076db3 
+2022-10-31 21:53:49,935 INFO  [Log] Scenario 7 = PASSED 
+2022-10-31 21:54:32,893 ERROR [Log] Scenario 8 = FAILED with cause : element click intercepted: Element <button type="button" data-ng-click="playKeySound(); addCode('4');" class="flexItem btn  btn3dSale keypadbtn">...</button> is not clickable at point (911, 521). Other element would receive the click: <div class="modal in" id="keypadModal" role="dialog" data-backdrop="static" style="display: block;">...</div>
+  (Session info: chrome=107.0.5304.87)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:c68:b170:16e9:57fd%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3651d706733114edf75c8f5321488416, clickElement {id=9d725b39-015b-41b9-9411-628d637da8a0}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49367}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49367/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (3651d706733114edf75c8f5321488416)] -> css selector: .flexItem[data-ng-click="playKeySound(); addCode('4');"]]
+Session ID: 3651d706733114edf75c8f5321488416 
+2022-10-31 21:56:48,280 ERROR [Log] Scenario 8 = FAILED with cause : The keyboard screen did not open to enter the weight of the product. ==> expected: <block> but was: <none> 
+2022-10-31 21:57:57,645 ERROR [Log] Scenario 8 = FAILED with cause : expected: <WATERMELON   1
+										kg@£40.00> but was: <WATERMELON   1
+										kg@£94.00> 
+2022-10-31 22:02:49,482 INFO  [Log] Scenario 8 = PASSED 
+2022-10-31 22:07:42,694 ERROR [Log] Scenario 9 = FAILED with cause : The keyboard screen did not open to enter the weight of the product. ==> expected: <block> but was: <none> 
+2022-10-31 22:16:28,927 ERROR [Log] Scenario 9 = FAILED with cause : The keyboard screen did not open to enter the weight of the product. ==> expected: <block> but was: <none> 
+2022-10-31 22:17:31,167 ERROR [Log] Scenario 9 = FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=107.0.5304.87)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:c68:b170:16e9:57fd%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c70d3d6d9940e5782c348ab633858583, findElement {using=id, value=keypadModal}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49551}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49551/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c70d3d6d9940e5782c348ab633858583 
+2022-10-31 22:18:12,054 ERROR [Log] Scenario 9 = FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=107.0.5304.87)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:c68:b170:16e9:57fd%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [43faef01241e8e02aad51e7f776dc3f5, executeScript {script= $("button:contains(\'ABC\')").filter(function(){ return $(this).text() == 'ABC'; }).trigger("click");, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49573}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49573/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 43faef01241e8e02aad51e7f776dc3f5 
+2022-10-31 22:19:00,292 ERROR [Log] Scenario 9 = FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=107.0.5304.87)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:c68:b170:16e9:57fd%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [641825c96f4bbf1dbf7581106a3c09cb, executeScript {script=$("span:contains('Cherry Sour')").parent().click(), args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49596}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49596/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 641825c96f4bbf1dbf7581106a3c09cb 
+2022-10-31 22:19:39,999 ERROR [Log] Scenario 9 = FAILED with cause : The keyboard screen did not open to enter the weight of the product. ==> expected: <block> but was: <none> 
+2022-10-31 22:20:27,570 ERROR [Log] Scenario 9 = FAILED with cause : The number of items entered in the basket does not match. ==> expected: <4> but was: <1> 
+2022-10-31 22:21:29,941 ERROR [Log] Scenario 9 = FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=107.0.5304.87)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:c68:b170:16e9:57fd%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [644c0a15ea58a2c3a89338955665ce12, executeScript {script=$("span:contains('Cherry Sour')").parent().click(), args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49666}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49666/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 644c0a15ea58a2c3a89338955665ce12 
+2022-10-31 22:22:18,091 ERROR [Log] Scenario 9 = FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=107.0.5304.87)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:c68:b170:16e9:57fd%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4d591fa75c0fed510854515c96e3068a, executeScript {script= $("button:contains(\'ABC\')").filter(function(){ return $(this).text() == 'ABC'; }).trigger("click");, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49691}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49691/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4d591fa75c0fed510854515c96e3068a 
+2022-10-31 22:24:06,241 ERROR [Log] Scenario 9 = FAILED with cause : The number of items entered in the basket does not match. ==> expected: <4> but was: <5> 
+2022-10-31 22:26:17,204 ERROR [Log] Scenario 9 = FAILED with cause : The numbers entered on the keyboard screen that opens do not match. ==> expected: <100> but was: <10> 
+2022-10-31 22:28:03,492 ERROR [Log] Scenario 9 = FAILED with cause : The total price in the basket does not match. ==> expected: <£11.68> but was: <£17.91> 
+2022-10-31 22:30:37,624 INFO  [Log] Scenario 9 = PASSED 
+2022-10-31 22:32:09,190 ERROR [Log] Scenario 10 = FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":".btn[data-ng-click="playKeySound(); gotoPage( - 1)"]"}
+  (Session info: chrome=107.0.5304.87)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:c68:b170:16e9:57fd%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [66a1bea5abec6976dc919056da0f61b8, findElement {using=css selector, value=.btn[data-ng-click="playKeySound(); gotoPage( - 1)"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49818}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49818/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 66a1bea5abec6976dc919056da0f61b8 
+2022-10-31 22:33:08,060 ERROR [Log] Scenario 10 = FAILED with cause : element click intercepted: Element <button type="button" class="btn  btn3dSale alphabet-button button flexItem salePageComponent " style="height: 100%;" data-ng-click="playKeySound(); gotoPage( - 1)">...</button> is not clickable at point (557, 630). Other element would receive the click: <div class="modal in" id="keypadModal" role="dialog" data-backdrop="static" style="display: block;">...</div>
+  (Session info: chrome=107.0.5304.87)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:c68:b170:16e9:57fd%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9547cd407c8caf1770c4ea17187a6232, clickElement {id=2b98aa5a-7327-49c4-8eed-10abaaeadfc7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:49843}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49843/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (9547cd407c8caf1770c4ea17187a6232)] -> css selector: .btn[data-ng-click="playKeySound(); gotoPage( - 1)"]]
+Session ID: 9547cd407c8caf1770c4ea17187a6232 
+2022-10-31 22:37:36,858 INFO  [Log] Scenario 10 = PASSED 
+2022-11-01 00:23:06,483 ERROR [Log] Scenario 11 = FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":".mgnButton[data-ng-click="playKeySound(); gotoState('management')"]"}
+  (Session info: chrome=107.0.5304.87)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:c68:b170:16e9:57fd%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a9535b4207a94c830775292ebfa4caf4, findElement {using=css selector, value=.mgnButton[data-ng-click="playKeySound(); gotoState('management')"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:50008}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50008/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a9535b4207a94c830775292ebfa4caf4 
+2022-11-01 00:29:09,407 ERROR [Log] Scenario 11 = FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":".data[data-index="0"]"}
+  (Session info: chrome=107.0.5304.87)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:c68:b170:16e9:57fd%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9f8eade890af7a80fde2126cc5c4a6e3, findElement {using=css selector, value=.data[data-index="0"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:50043}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50043/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9f8eade890af7a80fde2126cc5c4a6e3 
+2022-11-01 00:32:00,542 ERROR [Log] Scenario 11 = FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":".data[data-index="0"]"}
+  (Session info: chrome=107.0.5304.87)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:c68:b170:16e9:57fd%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7dd4078690ab4146015c1a217cc0ee58, findElement {using=css selector, value=.data[data-index="0"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:50074}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50074/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7dd4078690ab4146015c1a217cc0ee58 
+2022-11-01 00:38:40,408 INFO  [Log] Scenario 11 = PASSED 
+2022-11-01 00:44:10,928 ERROR [Log] Scenario 12 = FAILED with cause : The yes/no screen to confirm age did not pop up. ==> expected: <block> but was: <none> 
+2022-11-01 00:46:01,572 INFO  [Log] Scenario 12 = PASSED 
+2022-11-01 00:51:41,416 ERROR [Log] Scenario 12 = FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":".mgnButton[data-ng-click="playKeySound(); gotoState('management')"]"}
+  (Session info: chrome=107.0.5304.87)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:c68:b170:16e9:57fd%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [df677ffd5379293409cc2da943ad7695, findElement {using=css selector, value=.mgnButton[data-ng-click="playKeySound(); gotoState('management')"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:50246}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:50246/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: df677ffd5379293409cc2da943ad7695 
+2022-11-01 00:55:41,814 ERROR [Log] Scenario 12 = FAILED with cause : The number of items entered in the basket does not match. ==> expected: <3> but was: <0> 
+2022-11-01 01:00:46,040 ERROR [Log] Scenario 12 = FAILED with cause : The number of items entered in the basket does not match. ==> expected: <3> but was: <0> 
+2022-11-01 01:05:10,320 INFO  [Log] Scenario 12 = PASSED 
+2022-11-01 01:11:41,584 ERROR [Log] Scenario 14 = FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":".mgnButton[data-ng-click="playKeySound(); gotoState('management')"]"}
+  (Session info: chrome=107.0.5304.87)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:c68:b170:16e9:57fd%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d1db2394d2820d24afe521893f8266f4, findElement {using=css selector, value=.mgnButton[data-ng-click="playKeySound(); gotoState('management')"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:52873}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:52873/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d1db2394d2820d24afe521893f8266f4 
+2022-11-01 01:15:41,427 INFO  [Log] Scenario 14 = PASSED 
+2022-11-01 01:27:17,609 ERROR [Log] Scenario 15 = FAILED with cause : javascript error: Unexpected identifier 'fru'
+  (Session info: chrome=107.0.5304.87)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:c68:b170:16e9:57fd%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a1cf4a50b8b191449b3141964952edbe, executeScript {script=$("span:contains('LEMON')").filter(function(){ return $(this).text() == 'LEMON'; }).parent().click()fru, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:53071}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:53071/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a1cf4a50b8b191449b3141964952edbe 
+2022-11-01 01:30:20,897 ERROR [Log] Scenario 15 = FAILED with cause : javascript error: Unexpected identifier 'fru'
+  (Session info: chrome=107.0.5304.87)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:c68:b170:16e9:57fd%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1077f885859ebc8e3e9956397ebd5e91, executeScript {script=$("span:contains('LEMON')").filter(function(){ return $(this).text() == 'LEMON'; }).parent().click()fru, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:53102}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:53102/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1077f885859ebc8e3e9956397ebd5e91 
+2022-11-01 01:35:53,631 ERROR [Log] Scenario 15 = FAILED with cause : javascript error: Unexpected identifier 'fru'
+  (Session info: chrome=107.0.5304.87)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:c68:b170:16e9:57fd%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c199022d77642c1865f4edddfcfa041e, executeScript {script=$("span:contains('LEMON')").filter(function(){ return $(this).text() == 'LEMON'; }).parent().click()fru, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:53135}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:53135/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c199022d77642c1865f4edddfcfa041e 
+2022-11-01 01:37:20,515 ERROR [Log] Scenario 15 = FAILED with cause : javascript error: Unexpected identifier 'fru'
+  (Session info: chrome=107.0.5304.87)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Meliha-Yrtar-MacBook-Air.local', ip: 'fe80:0:0:0:c68:b170:16e9:57fd%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [57176d6f5099329ed9c5b4fef12ffc84, executeScript {script=$("span:contains('LEMON')").filter(function(){ return $(this).text() == 'LEMON'; }).parent().click()fru, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.87, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /var/folders/55/74nh5c3x6w7...}, goog:chromeOptions: {debuggerAddress: localhost:53161}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:53161/devtoo..., se:cdpVersion: 107.0.5304.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 57176d6f5099329ed9c5b4fef12ffc84 
+2022-11-01 01:40:15,792 ERROR [Log] Scenario 15 = FAILED with cause : The total price in the basket does not match. ==> expected: <£20.53> but was: <£26.51> 
+2022-11-01 01:45:15,376 ERROR [Log] Scenario 15 = FAILED with cause : The number of items entered in the basket does not match. ==> expected: <3> but was: <4> 
+2022-11-01 01:48:24,344 INFO  [Log] Scenario 15 = PASSED 
+2022-11-01 01:49:07,846 ERROR [Log] Scenario 16 = FAILED with cause : The keyboard screen did not open to enter the weight of the product.
+ ==> expected: <block> but was: <none> 
+2022-11-01 01:50:56,443 ERROR [Log] Scenario 16 = FAILED with cause : The total price in the basket does not match. ==> expected: <£1.71> but was: <£2.22> 
+2022-11-01 01:55:57,577 INFO  [Log] Scenario 16 = PASSED 
+2022-11-01 02:02:26,551 ERROR [Log] Scenario 17 = FAILED with cause : The keyboard screen did not open to enter the weight of the product. ==> expected: <block> but was: <none> 
+2022-11-01 02:06:11,196 INFO  [Log] Scenario 17 = PASSED 

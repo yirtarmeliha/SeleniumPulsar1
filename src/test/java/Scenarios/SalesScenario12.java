@@ -38,7 +38,7 @@ public class SalesScenario12 extends OpenPage {
         assertEquals("none", Elements.modal().getCssValue("display"),"The keyboard screen that opens to enter the price of the product is not closed.");
 
         try {
-            Thread.sleep(500);
+            Thread.sleep(4000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -48,7 +48,7 @@ public class SalesScenario12 extends OpenPage {
         assertEquals("block", Elements.ConfirmAgePopUp().getCssValue("display"),"The yes/no screen to confirm age did not pop up.");
 
         try {
-            Thread.sleep(500);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -57,7 +57,7 @@ public class SalesScenario12 extends OpenPage {
         assertEquals("none", Elements.ConfirmAgePopUp().getCssValue("display"),"The yes/no screen to confirm age did not close.");
 
         try {
-            Thread.sleep(500);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -67,13 +67,20 @@ public class SalesScenario12 extends OpenPage {
         assertEquals("block", Elements.ConfirmAgePopUp().getCssValue("display"),"The yes/no screen to confirm age did not pop up.");
 
         try {
-            Thread.sleep(500);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
         Elements.cigaretteOrTobaccoYes().click();
         assertEquals("none", Elements.ConfirmAgePopUp().getCssValue("display"),"The yes/no screen to confirm age did not close.");
+
+        try {
+            Thread.sleep(500);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
         assertEquals("block", Elements.modal().getCssValue("display"),"The keyboard screen did not open to enter the price of the product.");
 
         Elements.twoPopUp().click();
@@ -81,7 +88,7 @@ public class SalesScenario12 extends OpenPage {
         Elements.twoPopUp().click();
 
         try {
-            Thread.sleep(500);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -89,7 +96,7 @@ public class SalesScenario12 extends OpenPage {
         assertEquals("292", Elements.keypadModalClass().getAttribute("value"),"The numbers entered on the keyboard screen that opens do not match.");
 
         try {
-            Thread.sleep(500);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -99,7 +106,7 @@ public class SalesScenario12 extends OpenPage {
 
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -113,7 +120,7 @@ public class SalesScenario12 extends OpenPage {
         Elements.suspend().click();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -122,7 +129,7 @@ public class SalesScenario12 extends OpenPage {
         Elements.homeMode().click();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -130,7 +137,7 @@ public class SalesScenario12 extends OpenPage {
         Elements.management().click();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -138,7 +145,7 @@ public class SalesScenario12 extends OpenPage {
         Elements.mixAndMatch().click();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -146,21 +153,55 @@ public class SalesScenario12 extends OpenPage {
         Elements.create().click();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
         Elements.MixandMacthcurrentRecordName().sendKeys("PARSLEY 3 for £3.00");
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
         Elements.MixandMatchquantity().sendKeys("3");
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
         Elements.MixandMacthcurrentRewardAmount().sendKeys("£3.00");
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
         Elements.MixandMacthSubmenuProduct().sendKeys("PARSLEY");
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
         ElementsJS.pointVegMenuPARSLEY();
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
         Elements.SAVEmm().click();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -168,7 +209,7 @@ public class SalesScenario12 extends OpenPage {
         Elements.homeModeBack().click();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -178,7 +219,7 @@ public class SalesScenario12 extends OpenPage {
         Elements.resume().click();
 
         try {
-            Thread.sleep(600);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

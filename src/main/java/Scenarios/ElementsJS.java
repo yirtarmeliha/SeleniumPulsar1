@@ -380,7 +380,7 @@ public class ElementsJS {
         } catch (InterruptedException ex) {
             ex.printStackTrace();
         }
-        js.executeScript("$(\"span:contains('LEMON')\").filter(function(){ return $(this).text() == 'LEMON'; }).parent().click()fru");
+        js.executeScript("$(\"span:contains('LEMON')\").filter(function(){ return $(this).text() == 'LEMON'; }).parent().click()");
         try {
             Thread.sleep(1000);
         } catch (InterruptedException ex) {
@@ -457,6 +457,22 @@ public class ElementsJS {
 
 //                                                  => PAGE CHANGE FRUIT MENU
 
+
+    public static void pointFruitMenuABC() {
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException ex) {
+            ex.printStackTrace();
+        }
+        js.executeScript(" $(\"button:contains(\\'ABC\\')\").filter(function(){ return $(this).text() == 'ABC'; }).trigger(\"click\");");
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException ex) {
+            ex.printStackTrace();
+        }
+    }
+
+
     public static void pointFruitMenuBCDEF() {
         try {
             Thread.sleep(2000);
@@ -484,6 +500,21 @@ public class ElementsJS {
             ex.printStackTrace();
         }
     }
+
+    public static void pointFruitMenuGHKLM() {
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException ex) {
+            ex.printStackTrace();
+        }
+        js.executeScript(" $(\"button:contains(\\'GHKLM\\')\").filter(function(){ return $(this).text() == 'GHKLM'; }).trigger(\"click\");");
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException ex) {
+            ex.printStackTrace();
+        }
+    }
+
 
     public static void pointFruitMenuHKLM() {
         try {
@@ -541,13 +572,13 @@ public class ElementsJS {
         }
     }
 
-    public static void pointVEGMenuP() {
+    public static void pointVEGMenuMOP() {
         try {
             Thread.sleep(2000);
         } catch (InterruptedException ex) {
             ex.printStackTrace();
         }
-        js.executeScript(" $(\"button:contains(\\'P\\')\").filter(function(){ return $(this).text() == 'P'; }).trigger(\"click\");");
+        js.executeScript(" $(\"button:contains(\\'MOP\\')\").filter(function(){ return $(this).text() == 'MOP'; }).trigger(\"click\");");
         try {
             Thread.sleep(1000);
         } catch (InterruptedException ex) {
@@ -555,6 +586,21 @@ public class ElementsJS {
         }
     }
 
+
+
+    public static void pointVEGMenuPRST() {
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException ex) {
+            ex.printStackTrace();
+        }
+        js.executeScript(" $(\"button:contains(\\'PRST\\')\").filter(function(){ return $(this).text() == 'PRST'; }).trigger(\"click\");");
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException ex) {
+            ex.printStackTrace();
+        }
+    }
 
 }
 

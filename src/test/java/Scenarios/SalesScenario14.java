@@ -21,9 +21,8 @@ public class SalesScenario14 extends OpenPage {
         }
 
         Elements.homeMode().click();
-
         try {
-            Thread.sleep(1000);
+            Thread.sleep(4400);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -31,7 +30,7 @@ public class SalesScenario14 extends OpenPage {
         Elements.management().click();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -39,7 +38,7 @@ public class SalesScenario14 extends OpenPage {
         Elements.mixAndMatch().click();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -47,16 +46,52 @@ public class SalesScenario14 extends OpenPage {
         Elements.create().click();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
         Elements.MixandMacthcurrentRecordName().sendKeys("KIWI PACKED 2 for £8.00");
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
         Elements.MixandMatchquantity().sendKeys("2");
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
         Elements.MixandMacthcurrentRewardAmount().sendKeys("£8.00");
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+
         Elements.MixandMacthSubmenuProduct().sendKeys("KIWI PACKED");
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
         ElementsJS.pointFruitMenuKiwiPacked();
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
 
         Elements.SAVEmm().click();
 
@@ -69,22 +104,45 @@ public class SalesScenario14 extends OpenPage {
         Elements.homeModeBack().click();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
 
         ElementsJS.pointFruitMenu();
-        ElementsJS.pointFruitMenuHKLM();
+        ElementsJS.pointFruitMenu();
+
+        try {
+            Thread.sleep(1500);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        ElementsJS.pointFruitMenuGHKLM();
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
         ElementsJS.pointFruitMenuKiwiPacked();
 
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
         assertEquals("1", Elements.basketItemCountTD().getAttribute("innerHTML"),"The number of items entered in the basket does not match.");
         assertEquals("£0.00", Elements.basketDiscountTD().getAttribute("innerHTML"),"The discount price in the basket does not match.");
         assertEquals("£5.00", Elements.basketSubtotalTD().getAttribute("innerHTML"),"The total price in the basket does not match.");
 
-
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
 
         Elements.enterCode().click();
@@ -104,7 +162,7 @@ public class SalesScenario14 extends OpenPage {
 
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -119,7 +177,7 @@ public class SalesScenario14 extends OpenPage {
 
 
         try {
-            Thread.sleep(800);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -127,7 +185,7 @@ public class SalesScenario14 extends OpenPage {
         Elements.cash2Screen().click();
 
         try {
-            Thread.sleep(800);
+            Thread.sleep(1500);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -135,7 +193,7 @@ public class SalesScenario14 extends OpenPage {
         Elements.cash1Screen().click();
 
         try {
-            Thread.sleep(800);
+            Thread.sleep(1500);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -143,7 +201,7 @@ public class SalesScenario14 extends OpenPage {
         Elements.Cscreen().click();
 
         try {
-            Thread.sleep(800);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -152,7 +210,7 @@ public class SalesScenario14 extends OpenPage {
         Elements.homeMode().click();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(4000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -160,7 +218,7 @@ public class SalesScenario14 extends OpenPage {
         Elements.management().click();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -168,7 +226,7 @@ public class SalesScenario14 extends OpenPage {
         Elements.mixAndMatch().click();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -177,7 +235,7 @@ public class SalesScenario14 extends OpenPage {
         Elements.MixandMacthfirst().click();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -186,7 +244,7 @@ public class SalesScenario14 extends OpenPage {
         assertEquals("block", Elements.deleteAreYouSure().getCssValue("display"));
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -195,7 +253,7 @@ public class SalesScenario14 extends OpenPage {
         assertEquals("none", Elements.deleteAreYouSure().getCssValue("display"));
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -205,16 +263,45 @@ public class SalesScenario14 extends OpenPage {
         Elements.create().click();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
         Elements.MixandMacthcurrentRecordName().sendKeys("KIWI PACKED 3 for £12.00");
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+
         Elements.MixandMatchquantity().sendKeys("3");
         Elements.MixandMacthcurrentRewardAmount().sendKeys("£12.00");
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
         Elements.MixandMacthSubmenuProduct().sendKeys("KIWI PACKED");
+
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
         ElementsJS.pointFruitMenuKiwiPacked();
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
         Elements.SAVEmm().click();
 
@@ -227,17 +314,37 @@ public class SalesScenario14 extends OpenPage {
         Elements.homeModeBack().click();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
 
         ElementsJS.pointFruitMenu();
-        ElementsJS.pointFruitMenuHKLM();
+        ElementsJS.pointFruitMenu();
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        ElementsJS.pointFruitMenuGHKLM();
+
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         ElementsJS.pointFruitMenuKiwiPacked();
 
 
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
         assertEquals("1", Elements.basketItemCountTD().getAttribute("innerHTML"),"The number of items entered in the basket does not match.");
         assertEquals("£0.00", Elements.basketDiscountTD().getAttribute("innerHTML"),"The discount price in the basket does not match.");
@@ -247,18 +354,24 @@ public class SalesScenario14 extends OpenPage {
         Elements.twoScreen().click();
         Elements.xScreen().click();
 
+
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
         ElementsJS.pointFruitMenuKiwiPacked();
 
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         Elements.Cscreen().click();
 
         try {
-            Thread.sleep(800);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -269,12 +382,18 @@ public class SalesScenario14 extends OpenPage {
         assertEquals("£12.00", Elements.basketSubtotalTD().getAttribute("innerHTML"),"The total price in the basket does not match.");
 
 
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
         Elements.cigaretteOrTobacco().click();
         assertEquals("block", Elements.ConfirmAgePopUp().getCssValue("display"),"The yes/no screen to confirm age did not pop up.");
 
+
         try {
-            Thread.sleep(500);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -286,16 +405,18 @@ public class SalesScenario14 extends OpenPage {
         Elements.eightPopUp().click();
         Elements.fourPopUp().click();
 
+
         try {
-            Thread.sleep(500);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
         assertEquals("84", Elements.keypadModalClass().getAttribute("value"),"The numbers entered on the keyboard screen that opens do not match.");
 
+
         try {
-            Thread.sleep(500);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -317,6 +438,11 @@ public class SalesScenario14 extends OpenPage {
         assertEquals("£12.84", Elements.basketSubtotalTD().getAttribute("innerHTML"),"The total price in the basket does not match.");
 
 
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         Elements.cash50Screen().click();
 
         try {
@@ -329,18 +455,24 @@ public class SalesScenario14 extends OpenPage {
         Elements.Cscreen().click();
 
 
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         Elements.homeMode().click();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(4000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
         Elements.management().click();
 
+
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -348,7 +480,7 @@ public class SalesScenario14 extends OpenPage {
         Elements.mixAndMatch().click();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -356,8 +488,9 @@ public class SalesScenario14 extends OpenPage {
 
         Elements.MixandMacthfirst().click();
 
+
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -365,8 +498,9 @@ public class SalesScenario14 extends OpenPage {
         Elements.DELETEmm().click();
         assertEquals("block", Elements.deleteAreYouSure().getCssValue("display"));
 
+
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -374,8 +508,9 @@ public class SalesScenario14 extends OpenPage {
         Elements.deleteAreYouSureYES().click();
         assertEquals("none", Elements.deleteAreYouSure().getCssValue("display"));
 
+
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -383,18 +518,51 @@ public class SalesScenario14 extends OpenPage {
 
         Elements.create().click();
 
+
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
         Elements.MixandMacthcurrentRecordName().sendKeys("KIWI PACKED 5 for £20.00");
+
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
         Elements.MixandMatchquantity().sendKeys("5");
         Elements.MixandMacthcurrentRewardAmount().sendKeys("£20.00");
+
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+
+
         Elements.MixandMacthSubmenuProduct().sendKeys("KIWI PACKED");
+
+
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
         ElementsJS.pointFruitMenuKiwiPacked();
 
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         Elements.SAVEmm().click();
 
         try {
@@ -406,8 +574,9 @@ public class SalesScenario14 extends OpenPage {
         Elements.homeModeBack().click();
 
 
+
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -429,8 +598,9 @@ public class SalesScenario14 extends OpenPage {
         assertEquals("none", Elements.modal().getCssValue("display"),"The keyboard screen that opens to enter the product's barcode is not closed.");
 
 
+
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -444,8 +614,9 @@ public class SalesScenario14 extends OpenPage {
         Elements.fourScreen().click();
         Elements.xScreen().click();
 
+
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -467,8 +638,9 @@ public class SalesScenario14 extends OpenPage {
         assertEquals("none", Elements.modal().getCssValue("display"),"The keyboard screen that opens to enter the product's barcode is not closed.");
 
 
+
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -486,23 +658,25 @@ public class SalesScenario14 extends OpenPage {
         Elements.StartcardtransactionYes().click();
 
         try {
-            Thread.sleep(500);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
         assertEquals("none", Elements.StartcardtransactionYesNo().getCssValue("display"),"The yes/no screen to start card transaction did not close.");
 
+
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
         Elements.Cscreen().click();
 
+
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -512,23 +686,25 @@ public class SalesScenario14 extends OpenPage {
         Elements.homeMode().click();
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(3500);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
         Elements.management().click();
 
+
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
         Elements.mixAndMatch().click();
 
+
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -536,8 +712,9 @@ public class SalesScenario14 extends OpenPage {
 
         Elements.MixandMacthfirst().click();
 
+
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -545,8 +722,9 @@ public class SalesScenario14 extends OpenPage {
         Elements.DELETEmm().click();
         assertEquals("block", Elements.deleteAreYouSure().getCssValue("display"));
 
+
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -554,8 +732,9 @@ public class SalesScenario14 extends OpenPage {
         Elements.deleteAreYouSureYES().click();
         assertEquals("none", Elements.deleteAreYouSure().getCssValue("display"));
 
+
         try {
-            Thread.sleep(1000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

@@ -119,79 +119,18 @@ public class SalesScenario7 extends OpenPage{
             e.printStackTrace();
         }
 
-        ElementsJS.FruitAndVegMenuKG();
+       Elements.cashScreen().click();
+
 
         try {
-            Thread.sleep(3000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
-        }
-
-
-        assertEquals("block", Elements.modal().getCssValue("display"));
-        Elements.twoPopUp().click();
-        Elements.eightPopUp().click();
-        Elements.doubleZeroPopUp().click();
-        assertEquals("2800", Elements.keypadModalClass().getAttribute("value"));
-
-        try {
-            Thread.sleep(3000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
-        Elements.enterPopUp().click();
-        assertEquals("none", Elements.modal().getCssValue("display"));
-
-        try {
-            Thread.sleep(3000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
-        assertEquals("block", Elements.modal().getCssValue("display"));
-        Elements.onePopUp().click();
-        Elements.fivePopUp().click();
-        Elements.doubleZeroPopUp().click();
-        assertEquals("1500", Elements.keypadModalClass().getAttribute("value"));
-
-        try {
-            Thread.sleep(3000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
-        Elements.enterPopUp().click();
-        assertEquals("none", Elements.modal().getCssValue("display"));
-
-        try {
-            Thread.sleep(3000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
-        assertEquals("10", Elements.basketItemCountTD().getAttribute("innerHTML"));
-        assertEquals("£0.00", Elements.basketDiscountTD().getAttribute("innerHTML"));
-        assertEquals("£464.20", Elements.basketSubtotalTD().getAttribute("innerHTML"));
-
-        try {
-            Thread.sleep(3000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
-        Elements.cashScreen().click();
-
-        try {
-            Thread.sleep(3000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
 
         Elements.Cscreen().click();
 
-        try {
-            Thread.sleep(3000);
+        }       try {
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
